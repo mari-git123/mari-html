@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgb(208, 213, 218);
+    font-size: large;
+    color: rgb(5, 22, 99);
+    margin:0;
+    padding: 0px; 
+    border: 3px black double;
+    position: fixed;
+    width: 100%;
+
+
+}
+
+.un{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    background-color:rgb(208, 213, 218) ;
+    overflow: hidden;
+}
+.ln{
+    float: left;
+    padding: 20px 16px;
+}
+.s1{
+    float: right !important;
+    padding: 20px 16px;
+}
+#a1{
+    color: black;
+    text-decoration: none;  
+}
+#a1:hover{
+    background-color: rgb(78, 113, 145);
+    padding: 20px 20px;
+    border: 2px rgb(171, 194, 209) solid;
+    border-radius: 20px;
+}
+.container{
+    margin: 0;
+    padding: 0%;
+}
+
+.left{
+    background-color: rgb(196, 192, 192);
+    float: left; 
+    width:27%;
+    position: fixed;
+    margin-top: 1.8cm;
+}
+.content{
+    background-color: rgb(231, 226, 226); 
+    float: left;
+    width: 73%;
+    height: auto;
+    float: right;
+    margin-top: 1.8cm;
+}
+#u1{
+    padding: 4px;
+    border: 2px black solid;
+    margin: 5px; 
+     
+}
+#l1{
+    display: block;
+    border:2px black solid ;
+    height: 1.3cm;
+    margin: 7px;
+    list-style: none;
+    text-align: center;
+    padding: 0.15cm;
+    font-size: x-large;
+}
+#l11{
+    display: block;
+    border:2px black solid ;
+    height: 1.3cm;
+    margin: 7px;
+    list-style: none;
+    text-align: center;
+    padding: 0.15cm;
+    font-size: x-large;
+    border-radius: 15px;
+
+
+}
+#d1{
+    font-size: xx-large;
+    display: block;
+    padding: 1cm;
+    margin-top: 2cm;
+    margin-left: 1cm;
+}
+.d2{
+    font-size: larger;
+    display: block;
+    padding: 1cm;
+    margin-top: 0;
+    margin-left: 0.5cm;
+    padding-top: 0cm;
+    text-align: justify;
+}
+.d3{
+    width:15cm;
+    height:10cm;
+    margin:1cm;
+    padding: 5px;
+    margin-left: 2.2cm;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    overflow: auto; 
+}
+.d{
+    font-size: x-large;
+    display: block;
+    padding: 0cm;
+    margin: 0%;
+    margin-left: 2cm;
+
+}
+.u2{
+    font-size: larger;
+    display: block;
+    padding: 1cm;
+    margin-top: 0;
+    margin-left: 1.5cm;
+    padding-top: 0cm;
+    text-align: justify;
+    list-style: square;
+}
+.d4{
+    width:15cm;
+    height:auto;
+    margin:1cm;
+    padding: 5px;
+    margin-left: 2.2cm;
+    margin-bottom: 0;
+}
