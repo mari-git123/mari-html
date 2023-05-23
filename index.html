@@ -8,9 +8,9 @@
   </head><!--head end-->
   <body><!--body start-->
     <!--navbar start-->
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Start Coding</a>
+          <a class="navbar-brand" href="index.html">Start Coding</a>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,8 +20,8 @@
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Learn To Code</h5>
-              <button type="button" class="btn btn-danger">sign up</button>
-              <button type="button" class="btn btn-warning">log in</button>
+              <button type="button" class="btn btn-danger"><a href="signup.html" class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 " onclick="window.location.href=this.href ">sign up</a></button>
+              <button type="button" class="btn btn-warning"><a href="login.html" class="link-body-emphasis link-offset-2 link-underline link-underline-opacity-0 " onclick="window.location.href=this.href ">log in</a></button>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -30,7 +30,7 @@
                   <a class="nav-link active" aria-current="page" href="index.html"onclick="window.location.href=this.href">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Reference</a>
+                  <a class="nav-link" href="reference.html">Reference</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,6 +38,9 @@
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="dropdown-item" href="learnhtml.html"onclick="window.location.href=this.href">Learn HTML</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
                     <li><a class="dropdown-item" href="#">Learn CSS</a></li>
                     <li>
                       <hr class="dropdown-divider">

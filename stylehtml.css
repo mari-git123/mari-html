@@ -3,44 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    background-color: rgb(208, 213, 218);
-    font-size: large;
-    color: rgb(5, 22, 99);
-    margin:0;
-    padding: 0px; 
-    border: 3px black double;
-    position: fixed;
-    width: 100%;
-
-
-}
-
-.un{
-    padding: 0%;
-    margin: 0%;
-    list-style: none;
-    background-color:rgb(208, 213, 218) ;
-    overflow: hidden;
-}
-.ln{
-    float: left;
-    padding: 20px 16px;
-}
-.s1{
-    float: right !important;
-    padding: 20px 16px;
-}
-#a1{
-    color: black;
-    text-decoration: none;  
-}
-#a1:hover{
-    background-color: rgb(78, 113, 145);
-    padding: 20px 20px;
-    border: 2px rgb(171, 194, 209) solid;
-    border-radius: 20px;
-}
 .container{
     margin: 0;
     padding: 0%;
@@ -75,7 +37,7 @@ h1{
     list-style: none;
     text-align: center;
     padding: 0.15cm;
-    font-size: x-large;
+    font-size: large;
 }
 #l11{
     display: block;
@@ -85,20 +47,20 @@ h1{
     list-style: none;
     text-align: center;
     padding: 0.15cm;
-    font-size: x-large;
+    font-size: large;
     border-radius: 15px;
 
 
 }
 #d1{
-    font-size: xx-large;
+    font-size:large;
     display: block;
     padding: 1cm;
     margin-top: 2cm;
     margin-left: 1cm;
 }
 .d2{
-    font-size: larger;
+    font-size: large;
     display: block;
     padding: 1cm;
     margin-top: 0;
@@ -120,7 +82,7 @@ a{
     overflow: auto; 
 }
 .d{
-    font-size: x-large;
+    font-size:large;
     display: block;
     padding: 0cm;
     margin: 0%;
@@ -128,7 +90,7 @@ a{
 
 }
 .u2{
-    font-size: larger;
+    font-size: large;
     display: block;
     padding: 1cm;
     margin-top: 0;

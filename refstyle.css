@@ -1,0 +1,28 @@
+.imagsize{
+    height: 150px;
+    width: 200px;
+    opacity: 0.9;
+    transition: transform 3s;
+    transition-delay: 1s;
+    animation-name: imagsize;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
+    animation-direction:alternate-reverse ;
+}
+@keyframes imagsize{
+
+
+
+  
+        from{
+            height: 150px;
+            width: 200px;
+            }
+        to{
+            height: 300px;
+            width: 350px;
+            transform: rotateX(360DEG);
+            opacity: 0.5;
+           
+            }
+        }
